@@ -154,7 +154,7 @@
       $IPT -A FORWARD -i $INT_PUB -o $INT_GRE -j ACCEPT
       $IPT -A FORWARD -i $INT_GRE -o $INT_PUB -m state --state ESTABLISHED,RELATED -j ACCEPT
 
-    # GRE egress rules
+    # GRE forwarding rules
       $IPT -A INPUT -i $INT_GRE ! -d $NET_PRIV_A -j REJECT
       $IPT -A INPUT -i $INT_GRE ! -d $NET_PRIV_B -j REJECT
       $IPT -A INPUT -i $INT_GRE ! -d $NET_PRIV_C -j REJECT
