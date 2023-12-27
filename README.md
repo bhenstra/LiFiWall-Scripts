@@ -1,11 +1,11 @@
 # LiFiWall-Scripts
-Linux Firewall Scripts
+## Linux Firewall Scripts
 
 The purpose of this repository is to share my firewall scripts. I hope this is of some use to someone. 
 
 The following license applies to the scripts.
 
-# 0-clause license ("BSD Zero Clause License")
+## BSD Zero Clause License (0-clause license)
 Copyright (C) 2023 by Bouke Jasper Henstra <bouke{at}ict-diensten{dot}com>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
