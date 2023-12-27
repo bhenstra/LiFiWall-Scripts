@@ -45,7 +45,7 @@ The GRE tunnel was initally added with the following three commands:
 [2] ip link set gre1 up
 [3] ip addr add 172.30.250.2/29 dev gre1
 
-The above three lines will not survive a reboot... thus I did add the tunnel to (which is the standard file on the VPS I use for testing):
+The above three lines will not survive a reboot... thus I did add the tunnel to (which is the standard file):
 /etc/netplan/50-cloud-init.yaml
 
 The six lines are:
