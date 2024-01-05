@@ -143,6 +143,7 @@
     # Allow ICMP echo req GRE - to be able to ping from the other end of the GRE tunnel
 
       $IPT -A INPUT -i $INT_GRE -p icmp --icmp-type 8 -j ACCEPT
+      $IPT -A OUTPUT -o $INT_GRE -p icmp -j ACCEPT
 
     # Allow incoming traffic on $INT_PUB and forward it to $DST_GRE
 
