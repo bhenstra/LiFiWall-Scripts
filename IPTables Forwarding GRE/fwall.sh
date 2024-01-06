@@ -41,7 +41,7 @@
 
   # TCP Ports
 
-    GRE_TCP_PORTS="80,443"
+    GRE_TCP_PORTS="25,80,443,465,587,995"
 
 # Define public interface name (this is eg "eth0")
 
